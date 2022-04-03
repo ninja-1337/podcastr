@@ -41,7 +41,7 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
         <title>Home | Podcastr</title>
       </Head>
       <section className={styles.latestEpisodes}>
-        <h2>Últimos lançamentos</h2>
+        <h2>Last releases</h2>
 
         <ul>
           {latestEpisodes.map((episode, index) => (
@@ -64,21 +64,21 @@ export default function Home({ latestEpisodes, allEpisodes }: HomeProps) {
               </div>
 
               <button type="button" onClick={() => playList(episodeList, index)}>
-                <img src="/play-green.svg" alt="Tocar episódio"/>
+                <img src="/play-green.svg" alt="Play Episode"/>
               </button>
             </li>
           ))}
         </ul>
       </section>
       <section className={styles.allEpisodes}>
-        <h2>Todos episódios</h2>
+        <h2>All Episodes</h2>
         <table cellSpacing={0}>
             <thead>
               <tr>
                 <th></th>
                 <th>Podcast</th>
-                <th>Integrantes</th>
-                <th>Duração</th>
+                <th>Members</th>
+                <th>Duration</th>
                 <th></th>
               </tr>
             </thead>
