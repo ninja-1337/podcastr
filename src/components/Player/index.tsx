@@ -70,7 +70,7 @@ export function Player() {
     <div className={styles.playerContainer}>
       <header>
         <img src="/playing.svg" alt="Playing now" />
-        <strong>Tocando agora</strong>
+        <strong>Playing now</strong>
       </header>
       
       { episode ? (
