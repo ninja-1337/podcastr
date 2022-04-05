@@ -5,6 +5,7 @@ module.exports = {
       "i.postimg.cc",
       "i.ytimg.com",
       "www.cryptonary.com",
+      "bitcoinik.com",
     ],
   },
 };
